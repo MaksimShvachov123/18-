@@ -72,7 +72,7 @@ function drawGame() {
 
 	if(snakeX < box || snakeX > box * 17
 		|| snakeY < 3 * box || snakeY > box * 17)
-		clearInterval(game);
+		alert("Ти програв натисни F5 щоби грати знову");
 
 	if(dir == "left") snakeX -= box;
 	if(dir == "right") snakeX += box;
